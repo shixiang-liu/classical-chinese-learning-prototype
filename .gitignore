@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/*.log
+frontend/tsconfig.tsbuildinfo
+
+# Data / exports / models
+data/
+exports/
+models/*
+!models/.gitkeep
+!models/README.md
+*.gguf
+*.db
+*.sqlite
+*.sqlite3
+
+# Env
+.env
+.env.*
+!.env.example
+backend/.env*
+frontend/.env*
+
+# IDE
+.vscode/
+.idea/
+.VSCodeCounter/
+
+.playwright-cli/
+.playwright-mcp/
+.pytest_cache/
+backend/*.log
+backend/wheelhouse/
+output/
+*.log
+nul
+output-*.png
+*-playwright-*.png

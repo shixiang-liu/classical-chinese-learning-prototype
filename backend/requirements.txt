@@ -1,0 +1,15 @@
+fastapi==0.135.2
+uvicorn[standard]==0.41.0
+pydantic==2.12.5
+python-docx==1.2.0
+pypdf
+chromadb==1.5.5
+langgraph==0.6.8
+# Optional local backend. On Windows this often fails to compile, so the app
+# now defaults to Ollama and only uses llama_cpp when it is already installed.
+python-multipart
+bcrypt==4.3.0
+pytest
+httpx
+langfuse
+python-dotenv
